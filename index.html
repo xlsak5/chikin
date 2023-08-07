@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>교촌치킨 클론 코딩</title>
+
+  <link rel="stylesheet" href="./style/style.css">
+  <link rel="stylesheet" href="./style/reset.css">
+
+  <script defer src="./javascript/javascript.js"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.js" ></script>
+
+
+  <!-- swiper -->
+  <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+/>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+</head>
+
+<body>
+  <wrap>
+    <header id="header">
+      <!-- 햄버거 메뉴 -->
+      <a class="menu-trigger" href="#">
+        <span></span>
+        <span></span>
+        <span></span>
+      </a>
+      <!-- 햄버거 메뉴 클릭시에 -->
+      <div class="m__click active-1">
+        <ul>
+          <li><a href="#">Menu1</a></li>
+          <li><a href="#">Menu2</a></li>
+          <li><a href="#">Menu3</a></li>
+          <li><a href="#">Menu4</a></li>
+          <li><a href="#">Menu5</a></li>
+          <li><a href="#">Menu6</a></li>
+          <li><a href="#">Menu7</a></li>
+          <li><a href="#">Menu8</a></li>
+        </ul>
+      </div>
+
+      <div class="top__nav container">
+        <div class="left__box">
+          <ul>
+            <li><a href="#">교촌치킨</a></li>
+            <li><a href="#">교촌 F&B</a></li>
+          </ul>
+        </div>
+
+        <div class="right_box">
+          <ul>
+            <li><a href="#">고객센터</a></li>
+            <li><a href="#">사이트맵</a></li>
+            <li><a href="#">가맹점 개설안내</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="bottom__nav container">
+        <a class="logo" href="#">
+          <img src="./img/h1_logo_new2022.png" alt="KYOCHON 1991" />
+        </a>
+
+        <div class="nav__menu">
+          <ul>
+            <li><a href="#">메뉴</a></li>
+            <li><a href="#">매장안내</a></li>
+            <li><a href="#">이벤트</a></li>
+            <li><a href="#">주문</a></li>
+            <li><a href="#">E-쿠폰</a></li>
+            <li><a href="#">교촌스토리</a></li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <!-- #header -->
+    <main id="main">
+      <div id="banner container">
+        <div class="swiper">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">
+              <a href="#">
+                <img src="./img/마이돌-콘서트_pc_banner (1).jpg" alt="마이돌-콘서트_pc_banner (1)" />
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a href="#">
+                <img src="./img/pc_banner(14).jpg" alt="pc_banner(14)" />
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a href="#">
+                <img src="./img/삼복더워_pc_banner.jpg" alt="삼복더워_pc_banner" />
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a href="#">
+                <img src="./img/허니점보윙-출시_pc_banner.jpg" alt="허니점보윙-출시_pc_banner" />
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a href="#">
+                <img src="./img/볶음밥-출시_pc_banner.jpg" alt="볶음밥-출시_pc_banner" />
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a href="#">
+                <img src="./img/허니점보윙-출시-이벤트_pc_banner(0).jpg" alt="허니점보윙-출시-이벤트_pc_banner(0)" />
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a href="#">
+                <img src="./img/pc_banner(12).jpg" alt="pc_banner(12)" />
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a href="#">
+                <img src="./img/pc_banner(11).jpg" alt="pc_banner(11)" />
+              </a>
+            </div>
+          </div>
+          <!-- If we need pagination -->
+          <div class="swiper-pagination"></div>
+        
+          <!-- If we need navigation buttons -->
+          <div class="swiper-button-prev m__prev"></div>
+          <div class="swiper-button-next m__next"></div>
+        
+          <!-- If we need scrollbar -->
+          <div class="swiper-scrollbar">
+            <h2>Happy Kyochon</h2>
+          </div>
+        </div>
+      </div>
+      <!-- #banner -->
+
+      <div id="MENU">
+        <div class="container">
+          <h2>MENU</h2>
+  
+          <!-- Slider main container -->
+          <div class="swiper swiper2">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide">
+                <a href="#">
+                  <img src="./img/레드치즈볼세트(1).png" alt="레드치즈볼세트" />
+                </a>
+                <a href="#" class="a__button">레드치즈볼세트</a>
+              </div>
+              <div class="swiper-slide">
+                <a href="#">
+                  <img src="./img/브랜드_list_15-10-231077(0).png" alt="반반오리지날" />
+                </a>
+                <a href="#" class="a__button">반반오리지날</a>
+              </div>
+              <div class="swiper-slide">
+                <a href="#">
+                  <img src="./img/블랙치밥세트(마늘)_목록(1).png" alt="블랙치밥세트" />
+                </a>
+                <a href="#" class="a__button">블랙치밥세트</a>
+              </div>
+              <div class="swiper-slide">
+                <a href="#">
+                  <img src="./img/허니맵떡세트(1).png" alt="허니맵떡세트" />
+                </a>
+                <a href="#" class="a__button">허니맵떡세트</a>
+              </div>
+              <div class="swiper-slide">
+                <a href="#">
+                  <img src="./img/허니점보윙_목록(1).png" alt="허니점보윙_목록" />
+                </a>
+                <a href="#" class="a__button">허니점보윙_목록</a>
+              </div>
+            </div>
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+          </div>
+          <!-- #swiper2 -->
+        </div>
+
+        <div id="notice">
+          <div class="notice__left">
+            <h2>Store Search</h2>
+            <div class="search__box">
+              <form>
+                <input type="search" placeholder="매장명 또는 지역을 입력해주세요" />
+                <button type="submit">f</button>
+              </form>
+            </div>
+            
+            <ul class="desc">
+              <li><a href="#">교촌치킨 역삼 1호점</a></li>
+              <li><a class="desc__map" href="#">지도보기</a></li>
+              <li><a class="desc__details" href="#">상세보기</a></li>
+            </ul>
+
+            <ul class="address">
+              <li><a href="#">02-566-9942</a></li>
+              <li><a href="#">서울특별시 강남구 역삼로 14길 12(역삼동)</a></li>
+            </ul>
+          </div>
+
+          <div class="notice__right">
+            <h2>Happy Kyochon</h2>
+
+            <div class="happy">
+              <ul>
+                <li>
+                  <a href="#">
+                      <img src="./img/ico_happy_event.png" alt="" />
+                     <p>Kyochon Event</p>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                      <img src="./img/ico_happy_news.png" alt="ico_happy_news" />
+                    <p>Kyochon News</p>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- #MENU -->
+    </main>
+    <!-- #main -->
+
+    <footer id="footer">
+      <div class="container">
+        <ul class="clause">
+          <li><a href="#">이용약관 </a></li>
+          <li><a href="#">개인정보처리방침</a></li>
+          <li><a href="#">영상정보처리기기 운영관리 방침</a></li>
+          <li><a href="#">이메일 무단수집거부</a></li>
+          <li><a href="#">찾아오시는 길</a></li>
+        </ul>
+
+        <ul class="call">
+          <li><a href="#">전화주문 1577-1991</a></li>
+          <li>
+            <a href="#">
+              <img src="./img/ico_facebook.svg" alt="페이스북" />
+             </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="./img/ico_insta.svg" alt="인스타" />
+             </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="./img/ico_youtube.svg" alt="유튜브" />
+             </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="./img/ico_twitter.svg" alt="트위터" />
+             </a>
+          </li>
+          <li><a href="#"><span></span>가맹점 주문</a></li>
+        </ul>
+      </div>
+    </footer>
+    <!-- #footer -->
+  </wrap>
+</body>
+
+  <script>
+    let menuTrigger = document.querySelector(".menu-trigger");
+    let mClick = document.querySelector(".m__click");
+
+    menuTrigger.addEventListener("click", () => {
+      mClick.classList.toggle("active");
+    })
+  </script>
+</html>
